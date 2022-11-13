@@ -1,0 +1,56 @@
+
+* {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+main, header {
+    display: flex;
+
+}
+main {
+    width: 90%;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(212, 212, 212);
+    text-align: justify;
+    border-radius: 20px; 
+    padding-bottom: 4rem;
+}
+
+main > * {
+    margin-left: 3rem;
+}
+h4, ul {
+    text-align: left;
+
+}
+h4 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    position: absolute;
+    left: auto;
+    bottom: 0;
+    text-align: center;
+    max-width: 100%;
+}
+
+.emphasis {
+    color: rgb(5, 0, 82);
+    font-weight: 800;
+}
+
+.svg {
+    width: 10%;
+}
+
+header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
