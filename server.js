@@ -63,18 +63,23 @@ app.get('/', (request, response) => {
 
 //greeting can be called anything
 app.get('/api/:greeting', (request, response) => {
-    console.log(request.params.greeting)
     const greetingSearch = request.params.greeting.toLowerCase();
-
-    if (greetings[greetingSearch]) {
-        response.json(greetings[greetingSearch])   
-        console.log(greetings[greetingSearch]['Standard Korean'])
-    } else {
+  
+    if (greetingSearch === 'all') {
+        response.json(greetings)
+    }
+  
+   else if (greetings[greetingSearch]) {
+        response.json(greetings[greetingSearch]) 
+    }
+    else {
         response.json(greetings['unknown'])
     }
     
 }
 )
+
+
 
 
 
