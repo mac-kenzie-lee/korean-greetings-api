@@ -79,7 +79,7 @@ app.get('/api/:greeting', (request, response) => {
 
 
 //needs to be set up to listen.
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`listening on port: ${PORT}.`)
 })
 
