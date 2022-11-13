@@ -1,12 +1,20 @@
+
+![Korean Greetings API](https://user-images.githubusercontent.com/106789729/201503185-05bc3322-9199-4301-9483-faccec8e046e.png)
 # Korean Greetings API
 The Korean Greetings API is an api that uses url endpoints to get data back from a JSON object. 
 The data in this object is greetings in english and their Korean counterpart, as well as information on when a particular greeting is used.
 
 **Link to project:** https://korean-greetings-api.herokuapp.com/
 
-![Korean Greetings API](https://user-images.githubusercontent.com/106789729/201503185-05bc3322-9199-4301-9483-faccec8e046e.png)
-![what a data call looks like in postman](
-![image](https://user-images.githubusercontent.com/106789729/201503424-44651cce-1af5-4023-a4ed-4abcc00e0590.png)
+<p align='center'> 
+  <img src="https://user-images.githubusercontent.com/106789729/201503638-58940bcc-af5f-4c21-904d-d4ffd9778f17.gif" alt="video of how the korean greeting api works" width="450px"> 
+</p>
+<p align='center'>
+<a href="https://korean-greetings-api.herokuapp.com/">Click here to see the live Site and API</a>
+</p>
+
+### Data Call Example 
+![what a data call looks like in postman](https://user-images.githubusercontent.com/106789729/201503424-44651cce-1af5-4023-a4ed-4abcc00e0590.png)
 
 Here's an example of what a call to https://korean-greetings-api.herokuapp.com/api/hello would look like in postman.
 
@@ -19,6 +27,7 @@ A node server was created using express, and within the application various rout
 A client side website was created using html, js, and css just simply offering a guide on how to use the API and what endputs are valid.
 An interesting thing to note, is that the client side list is dynamic and the valid greetings will update as the original json object updates serverside. The fetch web api is used to call upon the Korean greetings api on the main webpage. 
 
+### Valid api end points: https://korean-greetings-api.herokuapp.com/api/
 ![an image showing valid data endpoints for api](https://user-images.githubusercontent.com/106789729/201503443-ca93881b-15c1-4b08-9eae-1dbd10418359.png)
 
 
